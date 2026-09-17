@@ -24,7 +24,7 @@ em{font-style:italic; color:var(--burgundy);}
 .nav-art{background:rgba(243,234,217,.88); backdrop-filter:blur(10px); padding:1.2rem 0; border-bottom:1px solid transparent; transition:.3s;}
 .nav-art.scrolled{border-color:rgba(26,21,18,.12);}
 .navbar-brand{font-weight:700; font-size:1.4rem; color:var(--ink)!important;}
-.nav-link{color:var(--ink)!important; font-weight:500; margin:0 .5rem;}
+.nav-link{color:#beb1a9(--ink)!important; font-weight:500; margin:0 .5rem;}
 .nav-link:hover{color:var(--burgundy)!important;}
 .btn-gold{background:var(--gold); color:var(--ink)!important; border-radius:2px; padding:.6rem 1.4rem; font-weight:600; transition:.3s; border:1px solid var(--gold);}
 .btn-gold:hover{background:transparent; color:var(--ink)!important;}
@@ -104,7 +104,7 @@ em{font-style:italic; color:var(--burgundy);}
 .menu-card{border-top:2px solid var(--ink);}
 .menu-row{display:grid; grid-template-columns:1.2fr 1.6fr .8fr; padding:1.1rem 0; border-bottom:1px solid rgba(26,21,18,.15); align-items:center;}
 .menu-row--head{font-size:.72rem; text-transform:uppercase; letter-spacing:.1em; color:var(--burgundy); font-weight:600; border-bottom:1px solid rgba(26,21,18,.3);}
-.menu-price{font-family:'Fraunces',serif; font-weight:600; font-size:1.15rem; text-align:right;}
+.menu-price{font-family:'Fraunces',serif; font-weight:600; font-size:1.15rem; text-align:left;}
 .menu-note{color:#6b6055; font-size:.82rem; margin-top:1.4rem;}
 @media(max-width:576px){.menu-row{grid-template-columns:1fr 1fr; row-gap:.2rem;} .menu-price{grid-column:1/3; text-align:left;}}
 
